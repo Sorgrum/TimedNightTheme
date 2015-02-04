@@ -1,0 +1,38 @@
+{
+  "name": "timednighttheme",
+  "title": "TimedNightTheme",
+  "id": "jid1-ZxxVBcDied6esA",
+  "description": "Enable night mode of the Firefox Dev theme on a schedule.",
+  "author": "Marcelo Gheiler (Sorgrum)",
+  "license": "MPL 2.0",
+  "version": "1.1",
+  "preferences": [{
+    "name": "enabled",
+    "title": "Enabled",
+    "description": "Enable TimedNightTheme",
+    "type": "bool",
+    "value": true
+  },
+  {
+    "name": "extension.stylish.toggled",
+    "title": "Stylish Support",
+    "description": "Enable or disable all Stylish styles depending on whether it is day or night",
+    "type": "bool",
+    "value": false
+  },
+  {
+    "name": "day",
+    "title": "Day Time",
+    "description": "When it is past this hour light mode activates (24 Hour)",
+    "type": "integer",
+    "value": 7
+  },
+  {
+    "name": "night",
+    "title": "Night Time",
+    "description": "When it is past this hour night mode activates (24 Hour)",
+    "type": "integer",
+    "value": 18
+  }]
+
+}
